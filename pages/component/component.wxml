@@ -1,0 +1,6 @@
+<tabs detail="{{detail}}"  binditemChange="itemChange">
+<block wx:for="{{detail}}" wx:if="{{item.isActive}}">
+  {{item.name}}
+</block>
+  
+</tabs>

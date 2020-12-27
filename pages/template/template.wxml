@@ -1,0 +1,20 @@
+<template name="demo1">
+<view>
+  Hello World!
+</view>
+  <view>
+    11111
+  </view>
+    <view>
+      {{arr1.a}}
+    </view>
+      
+</template>
+
+<template is="demo1" data="{{arr}}" />
+
+
+<view class="demo">
+  1233455667788
+</view>
+  

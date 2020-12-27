@@ -1,0 +1,56 @@
+{
+  
+  "pages": [
+    "pages/component/component",
+    "pages/template1/template1",
+    "pages/template/template",
+    "pages/icon/icon",
+    "pages/button/button",
+    "pages/richtext/richtext",
+    "pages/nav/nav",
+    "pages/img/img",
+    "pages/liebiao/liebiao",
+    "pages/new/new",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "微信",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/new/new",
+        "text": "新闻"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      },{
+        "pagePath": "pages/liebiao/liebiao",
+        "text": "列表"
+      }
+    ],
+    "color": "#000",
+    "selectedColor": "#222",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black"
+  },
+  "networkTimeout": {
+    "requset": 5000,
+    "connectSocket": 5000,
+    "uploadFlie": 5000,
+    "downloadFile": 5000
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

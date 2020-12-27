@@ -1,0 +1,2 @@
+<!--pages/liebiao/liebiao.wxml-->
+<text wx:for="{{person}}"  wx:key="item">{{index}}:{{item}}</text>

@@ -1,0 +1,20 @@
+.tabs{}
+
+.tabs .tabs_title{
+  display:flex;
+  font-size:24px;
+
+}
+
+.tabs .tabs_title .tabs_item{
+  flex:1;
+  display:flex;
+  justify-content:center;
+  color:black;
+}
+
+.active{
+  color:red;
+  background-color:#eee;
+  border-bottom:1px solid red;
+}

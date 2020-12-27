@@ -1,0 +1,10 @@
+/* pages/img/img.wxss */
+
+swiper{
+  width:100vw;
+ height:calc(232/412*100vw);
+}
+
+.img{
+  width:100vw;
+}

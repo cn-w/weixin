@@ -1,0 +1,9 @@
+<icon wx:for="{{iconType}}" type="{{item}}" size="23" color="red">
+  <icon wx:for="{{iconColor}}"  wx:for-item="value" type="{{item}}" size="23" color="value">
+    <icon wx:for="{{iconSize}}"  wx:for-item="color" type="{{item}}" size="23" color="color">
+    
+  </icon>
+  </icon>
+    
+</icon>
+  

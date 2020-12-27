@@ -1,0 +1,16 @@
+<!--pages/new/new.wxml-->
+<text class="mun" bindtap="clickAdd" data-pagenewadd="{{10}}">{{mun}}</text>
+<view bindtap="click">{{person.age}}</view>
+<view wx:if="{{isShow}}">我是小程序1</view>
+  <view wx:elif="{{false}}">我是小程序2</view>
+  <view wx:else>我是小程序3</view>
+<view hidden="{{isShow}}">我是小程序4</view>
+<button bindtap="isShow">hidden</button>
+<view hover-class="hover" hover-start-time="1000" hover-stay-time="2000">
+  我是小程序
+</view>
+<text class="" selectable="true" space="false" decode="false">
+  1111111111111111111111111111
+</text>
+  
+  

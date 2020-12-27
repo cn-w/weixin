@@ -1,0 +1,3 @@
+<!--pages/nav/nav.wxml-->
+<navigator target="self" url="/pages/index/index" open-type="switchTab">首页</navigator>
+<navigator target="self" url="/pages/img/img" open-type="navigate">轮播图</navigator>

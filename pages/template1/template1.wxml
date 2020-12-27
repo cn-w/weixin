@@ -1,0 +1,13 @@
+<template name="demo2">
+<view>
+  Hello World!
+</view>
+  <view>
+    11111
+  </view>
+    
+</template>
+<import src="../template/template.wxml" />
+
+<template is="demo1" data="{{arr1}}"/>
+<include src="../template/template.wxml"/>

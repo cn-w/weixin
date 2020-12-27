@@ -1,0 +1,11 @@
+<!--pages/img/img.wxml-->
+<swiper indicator-dots="true"  indicator-active-color="rbga(0,0,0,.3)" autoplay="true" duration="500" circular="true" 
+display-multiple-items="1" easing-function="easeInOutCubic" bindanimationfinish="swiperChange" bindchange="">
+  <swiper-item class="" wx:for="{{imgUrl}}" item-id="{{index}}" wx:key="index">
+    <image class="img" src="{{item}}" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+  </swiper-item>
+</swiper> 
+  
+<image class="img" src="https://i0.hdslb.com/bfs/sycp/creative_img/202010/35bdf4d6a4a909d4f276ad3b1c9c02c4.jpg@412w_232h_1c" 
+mode="aspectFit" lazy-load="false" binderror="" bindload="isonload" show-menu-by-longpress="true"/>
+  
